@@ -20,13 +20,13 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 50%;
   align-items: center;
 }
 
 figcaption{
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 
@@ -34,14 +34,27 @@ video{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 50%;
     align-items: center;
   }
 
   section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
+  }
+
+  fig{
+    margin-top: 20px;
+    padding: 20px;
+    border: solid 2px black;
+    border-width: 3px 5px 5px 4px;
+    background-color: white;
+    border-radius: 10px;
+    height: 50%;
+    width: 45%;
+    margin: 10px auto;
+    
   }

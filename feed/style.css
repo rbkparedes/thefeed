@@ -1,33 +1,55 @@
 body{
-    background-color: rgb(251, 249, 229);
+    background-image: url(../img/rubikcube3.jpeg);
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='70' height='80' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='45%'>🌼</text></svg>") 16 0,auto; 
+    background-repeat: repeat;
+    background-attachment: fixed;
     
-    
-}
+  } 
+      
+
 nav{
     font-size: 20px;
 }
 
-h1{
-    font-family: "americane-condensed", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    color: black;
-    text-align: center;
-    font-size: 125px;
-    text-decoration: none;
+a img{
+  margin-bottom: 5px;
+  width: 350px;
+  height: 300px;
+  position: fixed;
+  top:10px;
+  left:0px;
 }
 
-h3{
+h1{
+  font-family: "americane-condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 20%;
+  color: lightgoldenrodyellow;
+  text-align: center;
+  font-size: 200px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 20px;
     border: solid 2px black;
     border-width: 3px 5px 5px 4px;
-    background-color: lavender;
-    border-radius: 10px;
+    background-color:rgb(32, 194, 194);
+    border-radius: 15px;
     height: 40%;
-    width: 30%;
+    width: 40%;
     margin: 10px auto;
+    font-size: 20px;
 
 }
 
@@ -35,7 +57,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
   height: 60%;
   align-items: center;
   padding-bottom: 10px;
@@ -43,14 +65,15 @@ img{
 
 figcaption{
     text-align: center;
-    font-size: 16px;   
+    font-size: 20px;   
 }
 
 video{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
+    height: 60%;
     align-items: center;
     padding-bottom: 10px;
   }
@@ -68,7 +91,7 @@ video{
     padding: 20px;
     border: solid 2px black;
     border-width: 3px 5px 5px 4px;
-    background-color: white;
+    background-color:lightsalmon;
     border-radius: 10px;
     height: 40%;
     width: 30%;
